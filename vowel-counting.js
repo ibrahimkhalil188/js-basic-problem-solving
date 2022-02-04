@@ -1,5 +1,5 @@
 function vowelCounting(string) {
-    let count = 0;
+    let count = [];
     const lowercase = string.toLowerCase();
     const vowel = ['a', 'e', 'i', 'o', 'u']
     for (const element of lowercase) {
